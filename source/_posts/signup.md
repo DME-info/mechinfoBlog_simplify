@@ -1,0 +1,20 @@
+---
+title: 科协第一个自己的报名网站
+
+date: 2019-03-15 19:12:30
+tags:
+  - 科协学习部
+categories:
+  - 友情链接
+top: 0
+---
+
+***
+
+> 这是一个走心的报名网站
+<!-- more -->
+
+校内访问[signup.mechinfo.me](http://signup.mechinfo.me)
+校外访问[signup.mechinfo.me:8080](http://signup.mechinfo.me:8080)
+
+#### 欢迎投稿！联系方式 dmestudy@mail.com 

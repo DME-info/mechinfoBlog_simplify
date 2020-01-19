@@ -63,7 +63,7 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 接下来，可以进行一堆修改操作，commit了之后（然后要记得push到mechinfoBlog里面），在自己电脑上：
 
 	hexo generate && hexo deploy #生成静态网页，在/public目录下
-	
+
 由于hexo已经被设置好了git备份模式，此时，你会被询问github账号和密码，照做之后public文件夹下的静态界面就会被自动上传到github上mechinfo_html这个仓库内（注意不是mechinfoBlog!）。回到服务器，在服务器上找到mechinfo_html这个文件夹，运行`git pull`，从而可以直接改变服务器显示的页面。
 
 理论上，服务器没必要在弄一个mechinfoBlog的文件夹了，因为服务器只需要静态页面，但是作为备份仍然用着它吧。
@@ -79,7 +79,7 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 置顶文章请修改top优先级（默认值为0）
 
 	lowest 0->1->2 highest
-	
+
 在front matter里加入 `<!-- more -->` 可以实现“阅读更多”功能。
 
 ## 修改网页配置方法
@@ -108,4 +108,8 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 	2017.7.8 update: problem solved. Former ways of displaying image in normal markdown format were all erroneous. However, the command "hexo server" will be able to display images in markdown format so the problem did not pop up. In order for hexo to generate the correct static webpage, the command has to be changed to this format: {% asset_img example.jpg This is an example image %} see https://hexo.io/docs/asset-folders.html for detailed reference.
 
 * 2018.7.14: solved the problem of `git deploy` pushing all the root file to the "mechinfo html" repo. Just`rm .deploy_git` and `hexo g` again (you'd better `hexo clean` the existing generated files first).
+
 # mechinfoBlog_simplify
+
++ 这是原来网站的简化文件夹，其实原来的git仓库又很多冗余的地方，并且`.gitignore`被错误修改，因此建本仓库。
++ 该仓库重定向于`mechinfo_html`，解决了`hexo d`时出现整个文件夹被覆盖的问题。之后只讲mechinfBlog作为一个备份。
