@@ -112,4 +112,4 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 # mechinfoBlog_simplify
 
 + 这是原来网站的简化文件夹，其实原来的git仓库又很多冗余的地方，并且`.gitignore`被错误修改，因此建本仓库。
-+ 该仓库重定向于`mechinfo_html`，解决了`hexo d`时出现整个文件夹被覆盖的问题。之后只讲mechinfBlog作为一个备份。
++ 该仓库`deploy`定向于`mechinfo_html`，解决了`hexo d`时出现整个文件夹被覆盖的问题。之后只讲mechinfBlog作为一个备份。
