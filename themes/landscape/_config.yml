@@ -33,7 +33,8 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-favicon: /img/favicon-kexie.ico
+gauges_analytics:
+favicon: /images/favicon-kexie.ico
 twitter:
 google_plus:
 fb_admins:
