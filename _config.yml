@@ -70,5 +70,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://gitee.com/DME-info/mechinfo_html.git
+  repo: https://github.com/DME-info/mechinfo_html.git
   branch: master
